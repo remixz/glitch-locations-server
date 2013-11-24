@@ -6,7 +6,7 @@ module.exports = function (router) {
                 '/locations/:tsid.xml': 'Return information for specified tsid in XML format',
                 '/locations/:tsid.json': 'Return information for specified tsid in JSON format. Also the default when no extension is specified'
             },
-            source: 'https://github.com/remixz/glitch-aas'
+            source: 'https://github.com/remixz/glitch-locations'
         });
     }
 

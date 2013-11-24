@@ -1,19 +1,16 @@
 {
-  "name": "glitch-aas",
+  "name": "glitch-locations",
   "version": "0.0.0",
   "description": "Returns Glitch location data (XML and JSON)",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/remixz/glitch-aas.git"
+    "url": "https://github.com/remixz/glitch-locations.git"
   },
   "author": "Zach Bruggeman <talkto@zachbruggeman.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/remixz/glitch-aas/issues"
+    "url": "https://github.com/remixz/glitch-locations/issues"
   },
   "dependencies": {
     "xml2js": "~0.4.0",
