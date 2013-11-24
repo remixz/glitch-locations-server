@@ -3,7 +3,7 @@ var os      = require('os');
 
 var server  = require('./lib/server.js');
 
-var port = process.argv[2] || 8080;
+var port = process.env.PORT || 8080;
 
 if (cluster.isWorker) return server(port);
 for (var i = 0; i < os.cpus().length; i++) {
